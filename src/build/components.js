@@ -67,6 +67,18 @@ function header(activePath, base = "") {
     .join("");
 
   return `<a class="skip-link" href="#main">Skip to main content</a>
+<div class="topbar">
+  <div class="container">
+    <div class="topbar-contact">
+      <a href="${business.phoneHref}">${icon("phone")} ${business.phone}</a>
+      <a href="${business.emailHref}">${icon("mail")} ${business.email}</a>
+    </div>
+    <div class="topbar-social">
+      <a href="${business.social.facebook}" aria-label="Facebook">${icon("facebook")}</a>
+      <a href="${business.social.instagram}" aria-label="Instagram">${icon("instagram")}</a>
+    </div>
+  </div>
+</div>
 <header class="site-header" id="site-header">
   <div class="container header-bar">
     <a href="${u("/index.html")}" class="brand">
@@ -153,7 +165,7 @@ function footer(base = "") {
 
 function pageHero({ eyebrow, title, lede, image, crumb }, base = "") {
   const u = (p) => url(base, p);
-  const gradient = "linear-gradient(180deg, rgba(11, 20, 32, 0.78), rgba(11, 20, 32, 0.9))";
+  const gradient = "linear-gradient(180deg, rgba(23, 19, 15, 0.78), rgba(23, 19, 15, 0.9))";
   const bg = image ? `${gradient}, url('${u(image)}')` : gradient;
   return `<section class="page-hero" style="background-image:${bg}">
   <div class="container">
@@ -212,6 +224,7 @@ function testimonialsSection(list = testimonials, heading = "What Our Customers 
   const slides = list
     .map(
       (t) => `<div class="testimonial-slide">
+        <span class="quote-icon">${icon("quote")}</span>
         ${starsRow()}
         <p class="quote">&ldquo;${t.quote}&rdquo;</p>
         <div class="testimonial-author">

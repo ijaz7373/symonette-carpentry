@@ -46,6 +46,23 @@ const icons = {
   hammer: base(
     `<path d="M9.5 15.5 3 22"/><path d="m14 5 5 5-2.5 2.5L11 7Z"/><path d="m11 7-3 3 5 5 3-3"/>`
   ),
+  droplet: base(
+    `<path d="M12 3c3.5 4 6 7.4 6 10.5a6 6 0 1 1-12 0C6 10.4 8.5 7 12 3Z"/>`
+  ),
+  door: base(
+    `<rect x="5" y="2.5" width="14" height="19" rx="1.5"/><path d="M9 12h.01"/><path d="M5 21.5h14"/>`
+  ),
+  layers: base(
+    `<path d="m12 3 9 5-9 5-9-5 9-5Z"/><path d="m3 13 9 5 9-5"/>`
+  ),
+  fence: base(
+    `<path d="M5 3v18M12 3v18M19 3v18"/><path d="M2 8h6M9 8h6M16 8h6M2 15h6M9 15h6M16 15h6"/>`
+  ),
+  home: base(
+    `<path d="m3 11 9-8 9 8"/><path d="M5 9.5V21h14V9.5"/><path d="M9 21v-6h6v6"/>`
+  ),
+  play: `<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10 8.5v7l6-3.5-6-3.5Z"/></svg>`,
+  quote: `<svg viewBox="0 0 32 24" fill="currentColor" aria-hidden="true"><path d="M0 24V14.4C0 6.4 4.8 1.2 12.8 0l1.6 4.8c-4.8 1.6-6.4 4-6.4 7.2h6.4V24H0Zm17.6 0V14.4c0-8 4.8-13.2 12.8-14.4L32 4.8c-4.8 1.6-6.4 4-6.4 7.2H32V24H17.6Z"/></svg>`,
 };
 
 function icon(name, extraClass) {

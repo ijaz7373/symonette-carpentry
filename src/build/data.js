@@ -52,6 +52,7 @@ const services = [
   {
     slug: "kitchen-carpentry",
     key: "kitchen",
+    icon: "ruler",
     name: "Kitchen Carpentry",
     shortName: "Kitchen",
     heroImage: "/assets/images/services/category-kitchen.webp",
@@ -84,6 +85,7 @@ const services = [
   {
     slug: "bathroom-carpentry",
     key: "bathroom",
+    icon: "droplet",
     name: "Bathroom Carpentry",
     shortName: "Bathroom",
     heroImage: "/assets/images/services/category-bathroom.webp",
@@ -123,6 +125,7 @@ const services = [
   {
     slug: "door-carpentry",
     key: "door",
+    icon: "door",
     name: "Door Carpentry",
     shortName: "Door",
     heroImage: "/assets/images/services/category-door.webp",
@@ -155,6 +158,7 @@ const services = [
   {
     slug: "flooring",
     key: "flooring",
+    icon: "layers",
     name: "Flooring",
     shortName: "Flooring",
     heroImage: "/assets/images/services/category-flooring.webp",
@@ -187,6 +191,7 @@ const services = [
   {
     slug: "fence-carpentry",
     key: "fence",
+    icon: "fence",
     name: "Fence Carpentry",
     shortName: "Fence",
     heroImage: "/assets/images/services/category-fence.webp",
@@ -219,6 +224,7 @@ const services = [
   {
     slug: "shed-carpentry",
     key: "shed",
+    icon: "home",
     name: "Shed Carpentry",
     shortName: "Shed",
     heroImage: "/assets/images/services/category-shed.webp",

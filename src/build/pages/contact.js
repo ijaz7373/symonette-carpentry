@@ -62,7 +62,7 @@ ${header("/contact.html", base)}
               <a href="${business.social.instagram}" aria-label="Instagram">${icon("instagram")}</a>
             </div>
           </div>
-          <div class="map-frame" style="background-image:linear-gradient(160deg, rgba(11,20,32,.15), rgba(11,20,32,.75)), url('${u("/assets/images/gallery/10-privacy-fence.webp")}')">
+          <div class="map-frame" style="background-image:linear-gradient(160deg, rgba(23,19,15,.15), rgba(23,19,15,.75)), url('${u("/assets/images/gallery/10-privacy-fence.webp")}')">
             <a href="${directionsUrl}" target="_blank" rel="noopener">${icon("mapPin")} Get Directions</a>
           </div>
         </div>
