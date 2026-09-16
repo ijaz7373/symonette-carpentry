@@ -67,6 +67,11 @@ const services = [
     requirements:
       "A solid kitchen carpentry project starts with an in-person measurement — cabinet boxes, plumbing rough-ins, appliance cutouts, and electrical all need to be accounted for before a single board is cut. We'll talk through wood species and finish (painted shaker, stained hardwood, or laminate), soft-close hardware, and any structural changes needed if walls or soffits are coming down. Most kitchens are ready in a few weeks depending on scope.",
     galleryKeys: ["09-kitchen-cabinetry"],
+    narrativeImages: [
+      "/assets/images/stock/cabinet1.webp",
+      "/assets/images/gallery/09-kitchen-cabinetry.webp",
+      "/assets/images/stock/cabinet3.webp",
+    ],
     faqs: [
       {
         q: "Can you match new cabinets to my home's existing trim and doors?",
@@ -107,6 +112,11 @@ const services = [
       "07-glass-shower-door",
       "11-shower-corner",
     ],
+    narrativeImages: [
+      "/assets/images/gallery/02-bathroom-vanity.webp",
+      "/assets/images/gallery/03-marble-shower.webp",
+      "/assets/images/gallery/07-glass-shower-door.webp",
+    ],
     faqs: [
       {
         q: "What materials hold up best to bathroom humidity?",
@@ -140,6 +150,11 @@ const services = [
     requirements:
       "Doors have to be plumb, level, and square to operate correctly, so we check the full frame — not just the slab — before installing. For exterior doors we also confirm proper flashing and weatherproofing, and for security upgrades we'll talk through hardware grade and strike plate reinforcement.",
     galleryKeys: ["01-barn-door-bathroom", "08-exterior-door"],
+    narrativeImages: [
+      "/assets/images/gallery/08-exterior-door.webp",
+      "/assets/images/stock/door2.webp",
+      "/assets/images/gallery/01-barn-door-bathroom.webp",
+    ],
     faqs: [
       {
         q: "My door sticks in humid weather — can that be fixed without replacing it?",
@@ -173,6 +188,11 @@ const services = [
     requirements:
       "Subfloor condition and moisture levels have to be checked before installation — laying new flooring over an uneven or damp subfloor is the most common cause of early failure. We'll also help you choose plank width and finish based on the room's traffic and light exposure.",
     galleryKeys: [],
+    narrativeImages: [
+      "/assets/images/services/flooring-hero-unsplash.webp",
+      "/assets/images/stock/flooring3.webp",
+      "/assets/images/stock/measure1.webp",
+    ],
     faqs: [
       {
         q: "Can you install hardwood over an existing floor?",
@@ -206,6 +226,11 @@ const services = [
     requirements:
       "We confirm property lines and any HOA or local height requirements before setting posts, and use pressure-treated lumber set below frost-free depth for South Florida soil so posts stay solid for years rather than shifting after the first storm season.",
     galleryKeys: ["05-fence-gate", "10-privacy-fence"],
+    narrativeImages: [
+      "/assets/images/gallery/05-fence-gate.webp",
+      "/assets/images/stock/fence2.webp",
+      "/assets/images/stock/workshop3.webp",
+    ],
     faqs: [
       {
         q: "What wood holds up best to South Florida weather?",
@@ -239,6 +264,11 @@ const services = [
     requirements:
       "We'll confirm setback requirements from property lines and, depending on size, whether a permit applies in your city before building. A level, well-drained base is set first, then the shed is framed and finished to match or complement your home's exterior.",
     galleryKeys: ["04-custom-shed"],
+    narrativeImages: [
+      "/assets/images/gallery/04-custom-shed.webp",
+      "/assets/images/stock/cabinet2.webp",
+      "/assets/images/stock/workshop2.webp",
+    ],
     faqs: [
       {
         q: "Do I need a permit for a new shed?",

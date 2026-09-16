@@ -85,7 +85,7 @@ ${header("/index.html", base)}
         </div>
         <div class="hero-media">
           <div class="hero-media-frame">
-            <img src="${u("/assets/images/gallery/09-kitchen-cabinetry.webp")}" alt="Custom kitchen cabinetry built by Symonette Carpentry" width="550" height="733" />
+            <img src="${u("/assets/images/brand/hero-shower.webp")}" alt="Frameless glass shower and marble tile carpentry finish by Symonette Carpentry" width="550" height="513" />
           </div>
           <div class="hero-media-badge">
             <span class="icon-circle icon-circle--sm">${icon("award")}</span>
@@ -113,7 +113,7 @@ ${header("/index.html", base)}
     <div class="container">
       <div class="timeline-layout">
         <div class="timeline-media">
-          <img src="${u("/assets/images/gallery/05-fence-gate.webp")}" alt="Symonette Carpentry crew at work on a fence installation" width="550" height="733" loading="lazy" />
+          <img src="${u("/assets/images/stock/workshop3.webp")}" alt="Carpentry crew building an outdoor wood structure" width="1000" height="666" loading="lazy" />
         </div>
         <div>
           <span class="eyebrow">How We Work</span>
@@ -136,7 +136,7 @@ ${header("/index.html", base)}
         <p class="lede">Every job is measured, built, and finished on-site by our own crew — no subcontractors, no shortcuts.</p>
       </div>
       <div class="hands-on-media">
-        <img src="${u("/assets/images/gallery/06-bathroom-marble-suite.webp")}" alt="Completed bathroom carpentry and marble tile project" loading="lazy" width="550" height="733" style="width:100%;height:520px;object-fit:cover;" />
+        <img src="${u("/assets/images/stock/workshop1.webp")}" alt="Woodworking workshop bench and hand tools" loading="lazy" width="1000" height="666" style="width:100%;height:520px;object-fit:cover;" />
       </div>
       <div class="hands-on-captions">${handsOnCaptions}</div>
     </div>
@@ -217,7 +217,7 @@ ${header("/index.html", base)}
       </div>
       <div class="contact-split">
         <div class="contact-split-media">
-          <img src="${u("/assets/images/gallery/09-kitchen-cabinetry.webp")}" alt="Symonette Carpentry completed project" />
+          <img src="${u("/assets/images/stock/measure1.webp")}" alt="Carpenter measuring plywood for a Symonette Carpentry project" />
           <div class="contact-split-info">
             <span class="info-chip">${icon("mapPin")} ${business.addressLine1}, ${business.addressLine2}</span>
             <span class="info-chip">${icon("clock")} Mon&ndash;Sat, 9:00am &ndash; 5:00pm</span>

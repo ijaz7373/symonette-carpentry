@@ -101,10 +101,6 @@ function header(activePath, base = "") {
         <li><a class="nav-link${isActive("/reviews.html")}" href="${u("/reviews.html")}">Reviews</a></li>
         <li><a class="nav-link${isActive("/contact.html")}" href="${u("/contact.html")}">Contact</a></li>
       </ul>
-      <div class="nav-cta">
-        <a class="nav-phone" href="${business.phoneHref}">${icon("phone")} ${business.phone}</a>
-        <a class="btn btn-primary btn-sm" href="${u("/contact.html")}">Get Free Quote</a>
-      </div>
     </nav>
   </div>
 </header>

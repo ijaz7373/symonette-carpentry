@@ -43,7 +43,7 @@ function render(service, base = "../") {
       </section>`
     : "";
 
-  const heroImg = u(service.heroImage);
+  const [narrative1, narrative2, narrative3] = service.narrativeImages.map(u);
 
   return `${head(
     {
@@ -71,7 +71,7 @@ ${header("", base)}
   <section class="section">
     <div class="container">
       <div class="two-col-text">
-        <img src="${heroImg}" alt="${service.name}" loading="lazy" width="700" height="525" />
+        <img src="${narrative1}" alt="${service.name}" loading="lazy" width="700" height="525" />
         <div class="text-block">
           <span class="eyebrow">What Is ${service.name}?</span>
           <h2>Built Around Your Home, Not Off The Shelf</h2>
@@ -89,7 +89,7 @@ ${header("", base)}
           <h2>Signs It's Time To Call</h2>
           <p class="lede">${service.whenNecessary}</p>
         </div>
-        <img src="${heroImg}" alt="${service.name} signs and considerations" loading="lazy" width="700" height="525" />
+        <img src="${narrative2}" alt="${service.name} signs and considerations" loading="lazy" width="700" height="525" />
       </div>
     </div>
   </section>
@@ -97,7 +97,7 @@ ${header("", base)}
   <section class="section">
     <div class="container">
       <div class="two-col-text">
-        <img src="${heroImg}" alt="${service.name} requirements" loading="lazy" width="700" height="525" />
+        <img src="${narrative3}" alt="${service.name} requirements" loading="lazy" width="700" height="525" />
         <div class="text-block">
           <span class="eyebrow">What's Required</span>
           <h2>What Goes Into The Job</h2>
