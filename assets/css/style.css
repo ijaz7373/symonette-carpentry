@@ -664,7 +664,7 @@ body.nav-open .site-nav {
   border-radius: var(--radius-lg);
   overflow: hidden;
   box-shadow: var(--shadow-lg);
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 3 / 2;
 }
 .hero-media-frame img {
   width: 100%;

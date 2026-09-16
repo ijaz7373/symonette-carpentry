@@ -85,7 +85,7 @@ ${header("/index.html", base)}
         </div>
         <div class="hero-media">
           <div class="hero-media-frame">
-            <img src="${u("/assets/images/brand/hero-shower.webp")}" alt="Frameless glass shower and marble tile carpentry finish by Symonette Carpentry" width="550" height="513" />
+            <img src="${u("/assets/images/brand/hero-deck.webp")}" alt="Symonette Carpentry carpenter measuring wood decking on a custom deck build" width="1400" height="933" />
           </div>
           <div class="hero-media-badge">
             <span class="icon-circle icon-circle--sm">${icon("award")}</span>
